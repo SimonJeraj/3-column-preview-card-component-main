@@ -1,0 +1,76 @@
+/*** PRIMARY ***/
+/*** NEUTRAL ***/
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #f2f2f2;
+}
+
+.container {
+  height: 600px;
+  width: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100%;
+  margin: 150px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card {
+  padding: 50px;
+}
+.card-title {
+  font-family: "Big Shoulders Display", cursive;
+  margin-top: 50px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.card-text {
+  margin-top: 50px;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+.card-button {
+  margin-top: 100px;
+  height: 50px;
+  width: 150px;
+  border: 2px solid #f2f2f2;
+  color: inherit;
+  background: #f2f2f2;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+.card-button:hover {
+  cursor: pointer;
+  color: #f2f2f2;
+  background: transparent;
+}
+
+#card-1 {
+  background-color: #e38826;
+  color: #e38826;
+}
+
+#card-2 {
+  background-color: #006970;
+  color: #006970;
+}
+
+#card-3 {
+  background-color: #004241;
+  color: #004241;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    height: 1800px;
+    width: 300px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 100%;
+    margin: 50px auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
